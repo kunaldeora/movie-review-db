@@ -7,7 +7,7 @@ var cookieParser  = require('cookie-parser');
 var session       = require('express-session');
 var mongoose      = require('mongoose');
 
-var connectionString = process.env.MONGODB_URI||'mongodb://kunaldeora:Hanuman@123@ds155587.mlab.com:55587/mrdb';
+var connectionString = process.env.MONGODB_URI||'mongodb://kunaldeora:kunaldeora@ds155587.mlab.com:55587/mrdb';
 
 var db = mongoose.connect(connectionString);
 
